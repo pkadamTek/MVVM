@@ -21,7 +21,7 @@ class EmployeeTableViewDataSource<CELL : UITableViewCell, T> : NSObject, UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        items.count
+       return items.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
